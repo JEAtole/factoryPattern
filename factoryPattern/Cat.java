@@ -1,13 +1,13 @@
 package factoryPattern;
 
 public class Cat implements Pet {
-    private Integer noOfLives;
+    private int noOfLives;
 
-    public Integer getNoOfLives() {
+    public int getNoOfLives() {
         return noOfLives;
     }
 
-    public void setNoOfLives(Integer noOfLives) {
+    public void setNoOfLives(int noOfLives) {
         this.noOfLives = noOfLives;
     }
 
